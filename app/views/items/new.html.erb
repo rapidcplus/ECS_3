@@ -1,2 +1,11 @@
-<h1>Items#new</h1>
-<p>Find me in app/views/items/new.html.erb</p>
+<h1>Item#new</h1>
+<p>Find me in app/views/item/new.html.erb</p>
+<h1>アイテムの新規作成</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+
+    <%= render 'form', { item: @item } %>
+    </div>
+  </div>
+</div>
