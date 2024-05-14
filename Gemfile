@@ -49,6 +49,8 @@ gem "dotenv-rails"
 
 gem "sorcery"
 
+gem "rubocop"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
