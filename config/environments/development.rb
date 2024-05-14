@@ -8,6 +8,9 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  # ecs-3.fly.dev を許可する
+  config.hosts << "ecs-3.fly.dev"
+
   # Do not eager load code on boot.
   config.eager_load = false
 
