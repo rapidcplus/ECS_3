@@ -1,2 +1,20 @@
-<h1>Items#new</h1>
-<p>Find me in app/views/items/new.html.erb</p>
+<h1><%= t('.title') %></h1>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2">
+      <%= render 'form', { item: @item } %>
+    </div>
+  </div>
+</div>
+
+<% if flash[:success] %>
+  <div class="alert alert-success">
+    <%= flash[:success] %>
+  </div>
+<% end %>
+
+<% if flash[:danger] %>
+  <div class="alert alert-danger">
+    <%= flash[:danger] %>
+  </div>
+<% end %>
