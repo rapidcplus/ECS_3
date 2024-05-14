@@ -1,4 +1,4 @@
-class Item < ApplicationRecord
+class Items < ApplicationRecord
   belongs_to :user
   has_many :item_tags, dependent: :destroy
   has_many :tags, through: :item_tags
