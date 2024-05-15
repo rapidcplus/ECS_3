@@ -49,6 +49,8 @@ gem "dotenv-rails"
 
 gem "sorcery"
 
+gem 'rails-i18n'
+
 gem "rubocop"
 
 # Use Sass to process CSS
